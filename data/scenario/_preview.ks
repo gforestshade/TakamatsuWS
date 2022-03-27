@@ -2,17 +2,13 @@
 
 [mask time=10]
 [mask_off time=10]
-*start
-
 [cm  ]
-[tb_eval  exp="f.endFlag=0"  name="endFlag"  cmd="="  op="t"  val="0"  val_2="undefined"  ]
-[bg  time="1000"  method="crossfade"  storage="black.jpg"  ]
+[bg  storage="room.jpg"  time="1000"  ]
+[chara_show  name="盲目ちゃん"  time="1000"  wait="true"  storage="chara/1/moumoku_350.png"  width="350"  height="720"  ]
 [tb_show_message_window  ]
-[tb_start_text mode=2 ]
-01 設定[l][r]
-
-琴美はどこにでもいる女の子です。[l][r]
-琴美は今日も、なんでもない日常を暮らしていました。[l][r]
+[tb_start_text mode=1 ]
+#盲目ちゃん
+こんにちは[p]
 [_tb_end_text]
 
-[jump  storage="02_1st_TP.ks"  target="*start"  ]
+[s  ]

@@ -7,6 +7,7 @@
 [tb_clear_images]
 
 [tb_keyconfig  flag="0"  ]
+[stopbgm  time="1000"  ]
 [tb_hide_message_window  ]
 [bg  storage="marguerite.png"  ]
 [glink  color="white"  text="はじめから"  x="350"  y="450"  size="20"  target="*start"  width=""  height=""  _clickable_img=""  storage="01_Settei.ks"  ]
